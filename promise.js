@@ -34,13 +34,13 @@ func1().then(function(){
 const prom= new Promise(( Resolve, reject)=>{
     setTimeout(()=>{
         let rollNo=[1,2,3,4,45,567,677];
-        // Resolve(rollNo);
+        Resolve(rollNo);
         reject("Incorrect Data not fetched");
     },2000);
 
 });
 prom.then((rollNo)=>{
     console.log("Rollno-"+rollNo);
-// }).catch(()=>{
-//     console.log("Rollno not fetched");
+}).catch(()=>{
+    console.log("Rollno not fetched");
 })
