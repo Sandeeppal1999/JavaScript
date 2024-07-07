@@ -1,17 +1,3 @@
-let x={
-    a:1,
-    b:2,
-}
-// Q: convert object into value in to array
-const arr= new Array(x.a,x.b);
-console.log(arr);
-console.log('------------------------------------ reverse string ')
-// reverse string 
-const p="ABCD123 456EFG";
-const reverseString= (str) => str.split('').reverse().join('');
-    
-
-console.log(reverseString(p));
 
 console.log('------------------------------------------')
 const Obj={
@@ -71,3 +57,17 @@ console.log('------------------------------------------')
 console.log(dog);
 // console.log(cat); // refernce error
 // console.log(bat); // refernce error
+
+
+// clone a object 
+const obj={
+    a:{
+        b:{
+            c:{
+                d: 'sandeep'
+            }
+        }
+    }
+}
+const clone = Object.assign({},obj);
+console.log(clone.a.b.c.d);
