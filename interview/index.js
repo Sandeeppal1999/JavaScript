@@ -58,16 +58,3 @@ console.log(dog);
 // console.log(cat); // refernce error
 // console.log(bat); // refernce error
 
-
-// clone a object 
-const obj={
-    a:{
-        b:{
-            c:{
-                d: 'sandeep'
-            }
-        }
-    }
-}
-const clone = Object.assign({},obj);
-console.log(clone.a.b.c.d);

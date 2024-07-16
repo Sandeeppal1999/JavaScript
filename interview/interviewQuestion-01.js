@@ -149,3 +149,11 @@ const objec1 = {
 objec1.getX(); // Output: 1
 
 */
+
+const reverseString= (str) => str.split('').reverse().join('');
+console.log(reverseString("ABCD123 456EFG"));
+const object = { a: 1, b: 2, c: 3 };
+for (const key in object) {
+  console.log(key); // logs "a", "b", "c"
+  console.log(object[key]); // logs 1, 2, 3
+}
