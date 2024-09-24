@@ -15,5 +15,3 @@ while(endDate<startDate+1000){
     endDate=new Date().getTime();
 }
 console.log("After 10 Sec... while Expired ..");
-
-// 

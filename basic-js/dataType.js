@@ -14,7 +14,7 @@ console.log("const value  " + x);
 console.log("var value is " + b); // hosited in window
 var b = 10;
 
-// Block scope- all variable function which are accessible from block are called block scope....
+// Block scope- all variable function which are accessible from block are called block scope...
 console.log(" Block scope ..............................");
 
 var i = 100;
@@ -29,3 +29,4 @@ const k = 300;
 console.log("value  var i:" + i);
 console.log("value  let j:" + j);
 console.log("value  const k:" + k);
+

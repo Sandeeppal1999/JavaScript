@@ -10,15 +10,26 @@ what is await?
 
  */
 
-const p1= new Promise((resolve, reject)=>{
-   resolve('promise is called...')
+// const p1= new Promise((resolve, reject)=>{
+//    resolve('promise is called...')
+// })
+
+// async function fetchData(){
+//     return p1; 
+// }
+// const dataPromise=fetchData();
+// console.log(dataPromise);
+// dataPromise.then((res)=>{
+//     console.log(res)
+// })
+
+const prom= Promise((resolve, reject)=>{
+    setTimeout(()=>{
+  console.log("a");
+   resolve();
+    }, 1000)
 })
 
-async function fetchData(){
-    return p1; 
-}
-const dataPromise=fetchData();
-console.log(dataPromise);
-dataPromise.then((res)=>{
-    console.log(res)
-})
+ const p1= new Promise( resolve, reject);
+
+prom.
